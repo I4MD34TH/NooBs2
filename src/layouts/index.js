@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem, Grid } from 'react-bootstrap'
+import Scrollchor from 'react-scrollchor';
 
 import './index.css'
 
@@ -22,10 +23,10 @@ const Header = () => (
       </Nav>
       <Navbar.Collapse>
         <Nav className={'main-nav'} pullRight style={{'margin-top':'5px', 'color': '#fff',}}>
-          <NavItem eventKey={1} href={"#"}><p>About</p></NavItem>
-          <NavItem eventKey={2} href={"#"}><p>Mission</p></NavItem>
-          <NavItem eventKey={2} href={"#"}><p>Get Connected</p></NavItem>
-          <NavItem eventKey={2} href={"#"}><p>Follow me</p></NavItem>
+          <NavItem eventKey={1} href={"#"}>About</NavItem>
+          <NavItem eventKey={2} href={"#"}>Mission</NavItem>
+          <NavItem eventKey={2} href={"#"}>Get Connected</NavItem>
+          <NavItem eventKey={2} href={"#"}>Follow me</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
@@ -55,9 +56,9 @@ const Footer = () => (
             <footer style={{'color':'#c4c4c4', }}>Copyright &copy; Agency21Pvt Ltd. All rights reserved.</footer>
           </div>
           <div className={'social'}>
-              <a href={'https://www.facebook.com/Agency21pk/'} target={'_blank'}><img src={'../images/fb-icon.png'} style={{'height':'22px', 'padding-right':'15px', 'padding-bottom':'2px', }} /></a>
-              <a href={'https://twitter.com/Agency21Pk?lang=en'} target={'_blank'}><img src={'../images/twitter-icon.png'} style={{'height':'20px', 'padding-right':'15px',}} /></a>
-              <a href={'https://www.instagram.com/agency21pk/'} target={'_blank'}><img src={'../images/instagram.png'} style={{'height':'20px',}} /></a>
+              <a href={'https://www.facebook.com/ShafiqAkbar01/'} target={'_blank'}><img src={'../images/fb-icon.png'} style={{'height':'22px', 'padding-right':'15px', 'padding-bottom':'2px', }} /></a>
+              <a href={'https://twitter.com/shafiqakbar1'} target={'_blank'}><img src={'../images/twitter-icon.png'} style={{'height':'20px', 'padding-right':'15px',}} /></a>
+              <a href={'https://www.instagram.com/shafiqakbar1/'} target={'_blank'}><img src={'../images/instagram.png'} style={{'height':'20px',}} /></a>
           </div>
       </Grid>
   </section>

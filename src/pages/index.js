@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Button, Grid, Col, Carousel } from 'react-bootstrap'
+import { Button, Grid, Col, Carousel, Row } from 'react-bootstrap'
 
 const IndexPage = () => (
   <div className={'main'}>
@@ -16,7 +16,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className={'about'}>
-      <Grid className={'about-1'}>
+      <Grid id={'about-1'} className={'about-1'}>
         <div>
           <h1 className={'about-heading'}><strong>A LITTLE ABOUT ME</strong></h1>
           <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
@@ -28,13 +28,13 @@ const IndexPage = () => (
       <div style={{'width':'100%', }}>
         <img className={'about-1-img'} src={'../images/thumb-1.jpg'} />
       </div>
-      <div className={'about-2'}>
+      <div id={'about-2'} className={'about-2'}>
         <Grid className={'child'}>
-          <div className={'text-center'}>
+          <Row className={'text-center'}>
             <h1 className={'about-heading'}><strong>MY MISSION</strong></h1>
             <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
-          </div>
-          <div>
+          </Row>
+          <Row>
             <Col xs={6} md={4}>
               <img className={'img-responsive'} src={'../images/thumb-2.jpg'} />
               <h4><strong>OVERSEAS PAKISTANIS RETURN</strong></h4>
@@ -50,11 +50,11 @@ const IndexPage = () => (
               <h4><strong>AMAZON MALL</strong></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
             </Col>
-          </div>
+          </Row>
         </Grid>
       </div>
     </section>
-    <section className={'contact'}>
+    <section id={'contact'} className={'contact'}>
       <Grid>
         <div className={'contact-heading'}>
           <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for a First-Class<br /> Real Estate <span style={{'color':'#55ad32', }}>Investment Advisor</span></strong></h2>
@@ -65,7 +65,7 @@ const IndexPage = () => (
         <img src={'images/contact-thumb.jpg'} />
       </Grid>
     </section>
-    <section className={'text-center quotes'}>
+    <section id={'quotes'} className={'text-center quotes'}>
       <Grid>
         <img src={'../images/quote-logo.png'} style={{'width':'50px', 'margin-top':'90px', 'margin-bottom':'70px', }} />
         <div style={{'margin-top':'20px', 'margin-bottom':'150px',}}>

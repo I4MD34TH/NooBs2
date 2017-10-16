@@ -19,8 +19,6 @@ try {
 module.exports = (locals, callback) => {
   // const apiRunner = require(`${directory}/.cache/api-runner-ssr`)
   let headComponents = []
-  let htmlAttributes = {}
-  let bodyAttributes = {}
   let preBodyComponents = []
   let postBodyComponents = []
   let bodyProps = {}
@@ -28,14 +26,6 @@ module.exports = (locals, callback) => {
 
   const setHeadComponents = components => {
     headComponents = headComponents.concat(components)
-  }
-
-  const setHtmlAttributes = attributes => {
-    htmlAttributes = merge(htmlAttributes, attributes)
-  }
-
-  const setBodyAttributes = attributes => {
-    bodyAttributes = merge(bodyAttributes, attributes)
   }
 
   const setPreBodyComponents = components => {
@@ -52,8 +42,6 @@ module.exports = (locals, callback) => {
 
   apiRunner(`onRenderBody`, {
     setHeadComponents,
-    setHtmlAttributes,
-    setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,

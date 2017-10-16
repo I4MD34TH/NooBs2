@@ -2,7 +2,6 @@ import React from "react"
 import { renderToString, renderToStaticMarkup } from "react-dom/server"
 import { StaticRouter, Route, withRouter } from "react-router-dom"
 import { kebabCase, get, merge, isArray, isString } from "lodash"
-
 import apiRunner from "./api-runner-ssr"
 import pages from "./pages.json"
 import syncRequires from "./sync-requires"
@@ -45,28 +44,18 @@ module.exports = (locals, callback) => {
     pathPrefix = `${__PATH_PREFIX__}/`
   }
 
-  let bodyHtml = ``
+  let bodyHTML = ``
   let headComponents = []
-  let htmlAttributes = {}
-  let bodyAttributes = {}
   let preBodyComponents = []
   let postBodyComponents = []
   let bodyProps = {}
 
   const replaceBodyHTMLString = body => {
-    bodyHtml = body
+    bodyHTML = body
   }
 
   const setHeadComponents = components => {
     headComponents = headComponents.concat(components)
-  }
-
-  const setHtmlAttributes = attributes => {
-    htmlAttributes = merge(htmlAttributes, attributes)
-  }
-
-  const setBodyAttributes = attributes => {
-    bodyAttributes = merge(bodyAttributes, attributes)
   }
 
   const setPreBodyComponents = components => {
@@ -114,27 +103,22 @@ module.exports = (locals, callback) => {
     bodyComponent,
     replaceBodyHTMLString,
     setHeadComponents,
-    setHtmlAttributes,
-    setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,
   })
 
   // If no one stepped up, we'll handle it.
-  if (!bodyHtml) {
-    bodyHtml = renderToString(bodyComponent)
+  if (!bodyHTML) {
+    bodyHTML = renderToString(bodyComponent)
   }
 
   apiRunner(`onRenderBody`, {
     setHeadComponents,
-    setHtmlAttributes,
-    setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,
     pathname: locals.path,
-    bodyHtml,
   })
 
   // Add the chunk-manifest as a head component.
@@ -220,11 +204,9 @@ module.exports = (locals, callback) => {
     <Html
       {...bodyProps}
       headComponents={headComponents}
-      htmlAttributes={htmlAttributes}
-      bodyAttributes={bodyAttributes}
       preBodyComponents={preBodyComponents}
       postBodyComponents={postBodyComponents}
-      body={bodyHtml}
+      body={bodyHTML}
       path={locals.path}
     />
   )}`

@@ -8,12 +8,16 @@ html, body {
     width: 99.5vw;
     padding: 10px 150px 0px 150px
 }
-.navbar-default p {
-    color: #fff;
+.navbar-nav > li > a {
+    color: #fff !important;
 }
-.navbar-default p:hover {
-    color: #55ad32;
-    transition: 0.4s ease;
+.navbar-nav > li > a:hover {
+    color: #55ad32 !important;
+    transition: 0.4s ease !important;
+}
+.navitem {
+  color:white;
+  font-size: 25px;
 }
 .main {
     padding-left: 0px;
@@ -124,7 +128,7 @@ html, body {
     background-color: #55ad32;
 }
 .subscription-btn:hover {
-    background-color: #dddddd;
+    background-color: #000;
     color: #55ad32;
     transition: 0.3s ease;
 }
