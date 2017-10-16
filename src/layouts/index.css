@@ -216,7 +216,7 @@ button.navbar-toggle:hover {
     }
     .intro-frame {
         right: 15vw;
-        bottom: 100px;
+        bottom: 15vh;
     }
     .shafiq-img {
         position: absolute;
@@ -283,12 +283,16 @@ button.navbar-toggle:hover {
     }
 }
 @media only screen and (max-width: 768px) {
+    .intro {
+        height: 75vh;
+    }
     .about-1 {
         padding: 0px;
     }
     .about-1 div {
         padding-left: 0px;
         padding-right: 0px;
+        margin-top: 60px;
     }
     .about-1-img {
         width: 70vw;
@@ -296,6 +300,16 @@ button.navbar-toggle:hover {
     .about-2 .about-para {
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .about-2 .col-md-4 {
+        padding: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 1px solid #dddddd;
+    }
+    .about-2 .col-md-4 p, .about-2 .col-md-4 h4 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .navbar-default .container {
         padding-left: 30px;
@@ -305,7 +319,7 @@ button.navbar-toggle:hover {
         display: none;
     }
     .intro-frame {
-        bottom: 90px;
+        bottom: 35vh;
     }
     .intro-frame h1 {
         position: absolute;
@@ -392,6 +406,9 @@ button.navbar-toggle:hover {
         bottom: 80px;
     }
 }
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
 @media only screen and (max-width: 500px) {
     .subscription-btn {
         width: 40%;
@@ -402,7 +419,7 @@ button.navbar-toggle:hover {
 }
 @media only screen and (max-width: 414px) {
     .intro-frame {
-        bottom: 50px;
+        bottom: 35vh;
         right: 7vw;
     }
     .intro-frame h1 {
@@ -420,7 +437,6 @@ button.navbar-toggle:hover {
 }
 @media only screen and (max-width: 373px) {
     .intro-frame {
-        bottom: 100px;
         right: 6vw;
     }
     .intro-frame h1 {
