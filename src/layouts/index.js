@@ -16,17 +16,16 @@ const Header = () => (
         <Navbar.Toggle />
       </Navbar.Header>
       <Nav pullRight className={'social-nav'}>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/fb-logo.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/gmail-logo.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/twitter-logo.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/instagram-icon.png'} /></NavItem>
+        <li><a href={'https://www.facebook.com/ShafiqAkbar01/'} target={'_blank'}><img src={'../images/fb-logo.png'} /></a></li>
+        <li><a href={'https://twitter.com/shafiqakbar1'} target={'_blank'}><img src={'../images/twitter-logo.png'} /></a></li>
+        <li><a href={'https://www.instagram.com/shafiqakbar1/'} target={'_blank'}><img src={'../images/instagram-icon.png'} /></a></li>
       </Nav>
       <Navbar.Collapse>
         <Nav className={'main-nav'} pullRight style={{'margin-top':'5px', 'color': '#fff',}}>
-          <NavItem eventKey={1} href={"#"}>About</NavItem>
-          <NavItem eventKey={2} href={"#"}>Mission</NavItem>
-          <NavItem eventKey={2} href={"#"}>Get Connected</NavItem>
-          <NavItem eventKey={2} href={"#"}>Follow me</NavItem>
+          <li><Scrollchor to={'about'}>About</Scrollchor></li>
+          <li><Scrollchor to={'mission'}>Mission</Scrollchor></li>
+          <li><Scrollchor to={'contact'}>Get Connected</Scrollchor></li>
+          <li><Scrollchor to={'quotes'}>Follow me</Scrollchor></li>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

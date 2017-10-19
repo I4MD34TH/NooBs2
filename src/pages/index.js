@@ -16,43 +16,60 @@ const IndexPage = () => (
       </div>
     </section>
     <section className={'about'}>
-      <Grid id={'about-1'} className={'about-1'}>
+      <Grid id={'about'} className={'about-1'}>
         <div>
           <h1 className={'about-heading'}><strong>A LITTLE ABOUT ME</strong></h1>
-          <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
-          <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
-          <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
+          <p className={'about-para'}>A prestigious and notable graduate from Cambridge University, Shafiq Akbar has an enviable record of completing outstanding mega projects in the field of real estate development. He started his career at Hyundai engineering and construction 19 years ago and worked on several momentous projects including Chashma Hydro-Power Project and Pirkoh Gas Compression Power Plant. He has also worked with one of the top realtors Douglas Allen and it's parent company Arun Estates. Mr. Akbar, procured over a decade's worth of experience in United Kingdom during which he established himself as a distinguished purveyor and a polished executive always yearning to return to Pakistan. After his return to Pakistan he has done a monumental work in the field of Real Estate.</p>
+          <p className={'about-para'}>He is currently the founding Cheif Executive of Graana group of companies comprising Amazon Mall, Agency21, Graana Artec, Hadid Builders & Developers and Brando Marketing. </p>
         </div>
         <img src={'../images/thumb-1.jpg'} />
       </Grid>
       <div style={{'width':'100%', }}>
         <img className={'about-1-img'} src={'../images/thumb-1.jpg'} />
       </div>
-      <div id={'about-2'} className={'about-2'}>
+      <div id={'mission'} className={'about-2'}>
         <Grid className={'child'}>
           <Row className={'text-center'}>
             <h1 className={'about-heading'}><strong>MY MISSION</strong></h1>
-            <p className={'about-para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
+            <p className={'about-para'}>He preserved the cause of promoting a good image of Pakistan during his time abroad and is making tireless efforts to revolutionize the image of real estate in Pakistan.</p>
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-2.jpg'} />
+              <img className={'img-responsive'} src={'../images/aqwe.jpg'} />
               <h4><strong>OVERSEAS PAKISTANIS RETURN</strong></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
+              <p>This country has so much to offer in terms of potential not just in investment but in every other sector, all we need is a proper direction .Shafiq Akbar firmly believes that even if 1% of overseas Pakistanis return home with their investments, they can change the landscape of the country.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-3.jpg'} />
+              <img className={'img-responsive'} src={'../images/thumb-3.png'} />
               <h4><strong>GAMECHANGER IN REALESTATE</strong></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
+              <p>Shafiq Akbar always had the vision of building the new. Emphasized on effective policy making and its implementation.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-4.jpg'} />
+              <img className={'img-responsive'} src={'../images/amazon-thumb.jpg'} />
               <h4><strong>AMAZON MALL</strong></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium.</p>
+              <p>Situated in the emerging commercial hub of Rawalpindi and Islamabad on the Grand Trunk Road, upsurges Amazon. The Mall is envisioned to provide secure, serene and stimulating environment to the promising as well as booming entrepreneurs.</p>
             </Col>
           </Row>
         </Grid>
       </div>
+    </section>
+    <section className={'logos'} style={{'padding-top':'5vh', 'padding-bottom':'5vh', }}>
+      <Grid>
+        <Row>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/homzz-invest.jpg'} style={{'border':'1px solid #2d2d2d'}} />
+          </Col>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/homzz-create.png'} style={{'border':'1px solid #2d2d2d'}} />
+          </Col>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/hotspots-rental.jpg'} style={{'border':'1px solid #2d2d2d'}} />
+          </Col>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/steptons-s.png'} style={{'border':'1px solid #2d2d2d'}} />
+          </Col>
+        </Row>
+      </Grid>
     </section>
     <section id={'contact'} className={'contact'}>
       <Grid>

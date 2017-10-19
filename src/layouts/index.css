@@ -183,8 +183,8 @@ button.navbar-toggle:hover {
 .intro-frame {
     position: absolute;
     color: white;
-    right: 12vw;
-    bottom: 20vh;
+    right: 18vw;
+    bottom: 25vh;
 }
 .intro-frame h1 {
     position: absolute;
@@ -204,7 +204,7 @@ button.navbar-toggle:hover {
 }
 .shafiq-img {
     position: absolute;
-    width: 25vw;
+    width: 29vw;
     bottom: 0px;
     left: 0px;
 }
