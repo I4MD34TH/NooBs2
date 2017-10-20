@@ -35,38 +35,52 @@ const IndexPage = () => (
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/aqwe.jpg'} />
-              <h4><strong>OVERSEAS PAKISTANIS RETURN</strong></h4>
+              <img className={'img-responsive'} src={'../images/thumb-2.png'} />
+              <h4><strong>Association of Overseas Pakistanis</strong></h4>
               <p>This country has so much to offer in terms of potential not just in investment but in every other sector, all we need is a proper direction .Shafiq Akbar firmly believes that even if 1% of overseas Pakistanis return home with their investments, they can change the landscape of the country.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-3.png'} />
-              <h4><strong>GAMECHANGER IN REALESTATE</strong></h4>
+              <img className={'img-responsive'} src={'../images/middle-thumb-2.jpg'} />
+              <h4><strong>Architecture and Real Estate Investment</strong></h4>
               <p>Shafiq Akbar always had the vision of building the new. Emphasized on effective policy making and its implementation.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/amazon-thumb.jpg'} />
-              <h4><strong>AMAZON MALL</strong></h4>
+              <img className={'img-responsive'} src={'../images/right-thumb.jpg'} />
+              <h4><strong>Public Policy Institute</strong></h4>
               <p>Situated in the emerging commercial hub of Rawalpindi and Islamabad on the Grand Trunk Road, upsurges Amazon. The Mall is envisioned to provide secure, serene and stimulating environment to the promising as well as booming entrepreneurs.</p>
             </Col>
           </Row>
         </Grid>
       </div>
     </section>
-    <section className={'logos'} style={{'padding-top':'5vh', 'padding-bottom':'5vh', }}>
+    <section className={'logos'}>
       <Grid>
-        <Row>
+        <Row style={{'padding-top':'5vh', 'margin-left':'auto', 'margin-right':'auto', }}>
           <Col xs={4} md={3}>
-            <img className={'img-responsive'} src={'../images/homzz-invest.jpg'} style={{'border':'1px solid #2d2d2d'}} />
+            <img className={'img-responsive'} src={'../images/AGENCY.jpg'} style={{'height':'180px', }} />
           </Col>
           <Col xs={4} md={3}>
-            <img className={'img-responsive'} src={'../images/homzz-create.png'} style={{'border':'1px solid #2d2d2d'}} />
+            <img className={'img-responsive'} src={'../images/123.jpg'} style={{'height':'180px', }} />
           </Col>
           <Col xs={4} md={3}>
-            <img className={'img-responsive'} src={'../images/hotspots-rental.jpg'} style={{'border':'1px solid #2d2d2d'}} />
+            <img className={'img-responsive'} src={'../images/ARTECH.jpg'} style={{'height':'180px', }} />
           </Col>
           <Col xs={4} md={3}>
-            <img className={'img-responsive'} src={'../images/steptons-s.png'} style={{'border':'1px solid #2d2d2d'}} />
+            <img className={'img-responsive'} src={'../images/brando.jpg'} style={{'height':'180px', }} />
+          </Col>
+        </Row>
+        <Row style={{'padding-top':'5vh', 'padding-bottom':'5vh', 'margin-left':'auto', 'margin-right':'auto', }}>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/NEW1.png'} style={{'height':'180px', }} />
+          </Col>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/NEW2.png'} style={{'height':'180px', }} />
+          </Col>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/NEW3.jpg'} style={{'height':'180px', }} />
+          </Col>
+          <Col xs={4} md={3}>
+            <img className={'img-responsive'} src={'../images/NEW4.png'} style={{'height':'180px', }} />
           </Col>
         </Row>
       </Grid>

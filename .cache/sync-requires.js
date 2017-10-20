@@ -17,9 +17,9 @@ exports.json = {
   "layout-index.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/layout-index.json"),
   "index.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/index.json"),
   "layout-index.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/layout-index.json"),
-  "404-html.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/404-html.json"),
+  "page-2.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/page-2.json"),
   "layout-index.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/layout-index.json"),
-  "page-2.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/page-2.json")
+  "404-html.json": require("/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/404-html.json")
 }
 
 exports.layouts = {

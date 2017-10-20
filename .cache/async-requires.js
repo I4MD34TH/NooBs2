@@ -16,9 +16,9 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/layout-index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/404-html.json"),
+  "page-2.json": require("gatsby-module-loader?name=path---page-2!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/page-2.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/layout-index.json"),
-  "page-2.json": require("gatsby-module-loader?name=path---page-2!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/page-2.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/home/i4md34th/Desktop/projects/shafiqakber/NooBs2/.cache/json/404-html.json")
 }
 
 exports.layouts = {
