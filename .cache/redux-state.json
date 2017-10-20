@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1508486075971,
+      "updatedAt": 1508503848664,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f215b7b73e22e6c5269332d4575c8558",
+        "contentDigest": "bdc884d4a6a7fc397a86638a6bd67ba5",
         "owner": "internal-data-bridge"
       }
     },
@@ -321,6 +321,14 @@
           {
             "name": "react-scrollchor",
             "version": "^4.0.0"
+          },
+          {
+            "name": "react-slick",
+            "version": "^0.15.4"
+          },
+          {
+            "name": "slick-carousel",
+            "version": "^1.8.1"
           }
         ],
         "devDependencies": [
@@ -349,12 +357,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-20T07:53:24.134Z",
+      "buildTime": "2017-10-20T12:50:21.457Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e03f2e0e090da1380c5049d82c4b641e",
+        "contentDigest": "e675735a795ed0fa1ece599b78e3a76f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -366,7 +374,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1508486076012,
+      "updatedAt": 1508503848677,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -376,7 +384,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ed679b51ad643871bf61acaa38ef3e56",
+        "contentDigest": "785c9ecc5b409022d681cae39533efec",
         "owner": "internal-data-bridge"
       }
     },
@@ -387,7 +395,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1508486076015,
+      "updatedAt": 1508503848680,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -397,7 +405,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4a3acd2db2e2ff07113cab3239a61e70",
+        "contentDigest": "34242505dc61d9fe3b50966e0e954358",
         "owner": "internal-data-bridge"
       }
     },
@@ -408,7 +416,7 @@
       "layout": "index",
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
-      "updatedAt": 1508486076016,
+      "updatedAt": 1508503848682,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -418,7 +426,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4e16fcb27d5c43136bf76b70aa0e6c3a",
+        "contentDigest": "c35b52494774ae8279e40971b33cc195",
         "owner": "internal-data-bridge"
       }
     },
@@ -429,7 +437,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1508486076019,
+      "updatedAt": 1508503848685,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -439,14 +447,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "810ec8b3a4b04395c8976ba777024c46",
+        "contentDigest": "9ec137629ac38ed24673c4879fab355f",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d201e4d4b60cbcfb5ceae0ec6bff04ef"
+    "PLUGINS_HASH": "38b33375f56cbcbcd9f14493c4f0764a"
   },
   "componentDataDependencies": {
     "nodes": {},
